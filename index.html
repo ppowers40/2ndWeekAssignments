@@ -5,23 +5,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>html task</title>
+    <title>Contact Form Assignment Pandora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Epilogue&family=Fjalla+One&family=Indie+Flower&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <header>
+    <div>
+        <h1>Contact Us</h1>
+        <p>Please contact us for further information or questions regarding our website or product.</p>
+        <div class="contact">
+            <div class="contact-left">
+                <h3>Send your message</h3>
+                <form>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Name*</label>
+                            <input type="text" placeholder="First and Last Name" required>
+                        </div>
+                        <div class="input-group">
+                            <label>Email*</label>
+                            <input type="email" placeholder="email@email.com" required>
+                        </div>
+                    </div>
 
-        <h1>Pandora Rhodes - Full Stack</h1>
 
-    </header>
-    <img src="images\Pandora.JPG" alt="#" height="400px" width="300px">
-    <p>I am a mother, a sister, and a friend with a lot of drive and determination.</p>
-    <h2>My goals</h2>
-    <ul>
-        <li>To understand and master coding</li>
-        <li>To find a career as a full-stack developer</li>
-        <li>Build a great online portfolio</li>
-    </ul>
+                    <label>Message</label>
+                    <textarea rows="6" placeholder="Enter message here"></textarea>
+                    <div class="priority">
+            <select name="priority" required>
+                         <option value="" disabled selected>Message Priority</option>
+                        <option>Normal</option>
+                        <option>Urgent</option>
+                    </select> 
+                    </div><br>
+                    <button type="submit">Send</button>
+
+
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+
 </body>
 
 </html>
