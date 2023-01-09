@@ -1,27 +1,184 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>html task</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Delondo's Duallys</title>
+
+    <!----Custom css link---->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Epilogue&family=Indie+Flower&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+
+    <!----header start--->
+
     <header>
+        <img src="Trucks\duallylogo.jpg" alt="#logo" height="100px" width="110px">
+        <a href="#" class="logo">Delondo's Duallys</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
 
-        <h1>Pandora Rhodes - Full Stack</h1>
+        <ul class="navbar">
+            <li><a href="#buysell">Buy/Sell</a></li>
 
+            <li><a href="#about">About</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+
+        <div class="icons">
+            <a href="#"><i class='bx bx-search'></i></a>
+            <a href="#"><i class='bx bxs-user-circle'></i></a>
+            <a href="#"><i class='bx bxs-shopping-bag'></i></a>
+        </div>
     </header>
-    <img src="images\Pandora.JPG" alt="#" height="400px" width="300px">
-    <p>I am a mother, a sister, and a friend with a lot of drive and determination.</p>
-    <h2>My goals</h2>
-    <ul>
-        <li>To understand and master coding</li>
-        <li>To find a career as a full-stack developer</li>
-        <li>Build a great online portfolio</li>
-    </ul>
+
+    <!----shop start--->
+    <section class="order" id="order">
+        <div class="container">
+            <div class="box">
+                <img src="Trucks\graydually.jpg">
+                <h3>GMC Gray Dually</h3>
+                <h5>2019, 18,500 miles, One Owner</h5>
+                <h3>$75,085</h3>
+                <div class="cart">
+                    <a href="#"><i class='bx bx-cart'></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Trucks\reddually.jfif">
+                <h3>Red Rider Ford Dually</h3>
+                <h5>2020, 30,875 miles</h5>
+                <h3>$88,986</h3>
+                <div class="cart">
+                    <a href="#"><i class='bx bx-cart'></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Trucks\caddydually.jfif" width="55px" height="55px">
+                <h3>Cadillac Grandaddy Dually</h3>
+                <h5>2021, 50,823 miles, One owner</h5>
+                <h3>$98,652</h3>
+                <div class="cart">
+                    <a href="#"><i class='bx bx-cart'></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Trucks\toyotadually.jpg">
+                <h3>Toyota Dually</h3>
+                <h5>2017, 33,509 miles, minor accident
+                </h5>
+                <h3>$54,845</h3>
+                <div class="cart">
+                    <a href="#"><i class='bx bx-cart'></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Trucks\greenoldschooldually.jpg">
+                <h3>Mean Green Dually</h3>
+                <h5>1976, 11,008k, New Engine</h5>
+                <h3>$37,665</h3>
+                <div class="cart">
+                    <a href="#"><i class='bx bx-cart'></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Trucks\blueishdually.jpg">
+                <h3>Denalli FullyLoaded Dually</h3>
+                <h5>2023, 654 miles, beautiful truck</h5>
+                <h3>$122,855</h3>
+                <div class="cart">
+                    <a href="#"><i class='bx bx-cart'></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Trucks\blackdually.jfif">
+                <h3>Black Dually</h3>
+                <h5>2017, 43,995 miles, one owner</h5>
+                <h3>$77,543</h3>
+                <div class="cart">
+                    <a href="#"><i class='bx bx-cart'></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Trucks\oldschoolreddually.jpg">
+                <h3>Best Dually Ever Made</h3>
+                <h5>2005, 121,007 miles, new enterior</h5>
+                <h3>$15.00</h3>
+                <div class="cart">
+                    <a href="#"><i class='bx bx-cart'></i></a>
+                </div>
+            </div>
+
+            <div c </div>
+    </section>
+
+    <!----about start--->
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2>About</h2>
+            <p>Founded by Delondo in 1998, he had a dream of selling new and used vehicles</p>
+        </div>
+    </section>
+
+    <!----contact start--->
+    <section class="contact" id="contact">
+        <div class="main-contact">
+            <div class="contact-content">
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#faq">Faq</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </div>
+
+            <div class="contact-content">
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">Store Policy</a></li>
+                <li><a href="#">Payment Methods</a></li>
+            </div>
+
+            <div class="contact-content">
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Tel: 800.333-3333</a></li>
+                <li><a href="#">info@delondodually.com</a></li>
+            </div>
+
+            <div class="contact-content">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Pinterest</a></li>
+            </div>
+
+        </div>
+
+        <div class="action">
+            <form>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="submit" name="submit" value="Submit" required>
+            </form>
+        </div>
+    </section>
+
+    <div class="last">
+        <p>© 2023 by Pandora Powers with Reskill Americans</p>
+    </div>
+
+
 </body>
 
 </html>
